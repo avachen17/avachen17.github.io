@@ -1,0 +1,46 @@
+/* CSS Document */
+h1{
+    font-family: serif; 
+    font-size: 3.75em;
+    color: #2B2D42;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 2.5em; 
+    font-family: serif; 
+    color: #ffffff;
+    background-color: #2B2D42;
+    padding: 0.25em;
+}
+h3{
+    color: #8D99AE;
+    font-size: 1.5625em;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    margin-bottom: 1em;
+    margin-top: 2em;
+    text-align: center;
+    text-decoration: underline;
+}
+ul{
+    padding: 0;
+    text-align: center;
+}
+
+h4{
+    color: #000000;
+    font-size: 0.9375em;
+    font-family: sans-serif;
+    text-transform: uppercase; 
+    letter-spacing: 3px;
+}
+li{
+    list-style: none;
+    margin-bottom: 2em;
+}
+p{
+    font-family: sans-serif;
+    font-style: italic;
+}
