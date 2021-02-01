@@ -1,0 +1,64 @@
+/*CSS DOCUMENT*/
+
+@font-face{
+    font-family: AlmondCream;
+    src: url(AlmondCream.ttf)
+}
+header{
+    background-color: #650D1B;
+    padding: 0.5em;
+}
+h1{
+    font-family: AlmondCream;
+    letter-spacing: .1em;
+    font-size: 2.5em;
+    color: #ffffff;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 1.5em; 
+    font-family: serif; 
+    color: #ffffff;
+    font-style: italic;
+}
+h3{
+    color: #823200;
+    font-size: 1.2em;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    margin-left: 1.5em;
+}
+h6{
+   font-family: sans-serif; 
+    color: #ffffff;
+    text-align: center;
+}
+.ingredients li{
+    margin-left: 1.5em;
+    list-style: circle;
+    padding-bottom: .5em;
+    font-family: sans-serif;
+}
+.directions li{
+    font-family: sans-serif;
+    margin-left: 1.5em;
+    padding-bottom: .5em;
+}
+footer{
+    background-color: #650D1B;
+    padding: 0.5em;
+}
+figcaption{
+    text-align: center;
+    font-family: sans-serif;
+    background-color: #EDD382;
+    padding: 1em;
+}
+img {
+    width: 100%; /*Please leave this line.*/
+    padding-bottom: 1em;
+}
+
+/*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
