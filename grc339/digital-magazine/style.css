@@ -1,0 +1,102 @@
+/*CSS document*/
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+section{
+    border: thin solid#c4c2c5;
+    border-radius: 1em;
+    margin: 1em .5em .5em .5em;
+    padding: 1em;
+}
+figure {
+    margin: 0em;
+}
+
+img {
+    width: 100%;
+}
+
+nav{
+    background-color: #Fd3125; 
+    padding: .5em;
+}
+nav ul{
+    padding: 0;
+    text-align: center;
+    margin: auto;
+}
+
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    margin: 1em;
+    font-family: classic-comic, sans-serif;
+    font-style: normal;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+}
+
+nav a{
+    color: white;
+}
+h1, h2, h3{
+    font-family: classic-comic,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #Fd3125;
+}
+h2::after{
+    content:' ';
+    display: block;
+    border: thin solid #c4c2c5;
+    margin: .5em 0em 1em 0em;
+}
+h3{
+    margin: .5em 0em 0em 0em;
+}
+p, body{
+    font-family: museo-sans,sans-serif;
+    font-weight: 200;
+    font-style: normal; 
+    display: block;
+    color: #181313; 
+}
+
+img{
+    width: 100%;
+    margin: 1em 0em 0em 0em;
+}
+a{
+    text-decoration: none;
+}
+
+figcaption{
+    font-family: museo-sans,sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: #7b7778;
+}
+article{
+    padding-bottom: 2em;
+    padding-top: 2em;
+}
+footer{
+    margin-top:2em;
+    background-color: #Fd3125;
+    padding: 1em;
+}
+footer p{
+    text-align: center;
+    font-family: classic-comic,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+
+
