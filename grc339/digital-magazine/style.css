@@ -195,6 +195,12 @@ img{
 a{
     text-decoration: none;
 }
+h3 a{
+    color: #Fd3125;
+}
+p a{
+    color: #181313; 
+}
 
 figcaption{
     font-family: museo-sans,sans-serif;
@@ -285,7 +291,6 @@ footer p{
     section.mainstory figure div{
         flex: 1 0 18em;
         background-image: url(akirastreet.jpeg);
-        margin-bottom: .5em;
         background-repeat: no-repeat; 
         background-size: cover;
         background-position: center;
@@ -300,7 +305,9 @@ footer p{
     }
     section.mainstory h3{
         flex: 0 0 auto;
-        margin-bottom: 0em;
+        margin: 0em;
+        margin-bottom: .5em;
+        margin-top: .5em;
     }
     section.mainstory p{
         flex: 0 0 auto; 
